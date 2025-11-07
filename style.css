@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 64px;
     border-bottom: 1px solid #eee;
 }
 
@@ -42,7 +42,7 @@ nav a.active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 60px;
+    padding: 100px 64px;
 }
 
 .hero-text {
@@ -126,7 +126,7 @@ button:hover {
 
 /* Work Section */
 .work-section {
-    padding: 60px 64px;
+    padding: 64px 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,12 +140,21 @@ button:hover {
     font-size: 2rem;
 }
 
+.work-section p {
+    text-align: left;
+}
+
+.work-section img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
 /* Projects Grid */
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    max-width: 1100px;
     /* keeps grid from stretching too wide */
     width: 100%;
 }
@@ -161,16 +170,13 @@ button:hover {
 }
 
 
-
-
 /* About Page */
 .about {
-    padding: 60px;
+    padding: 64px;
 }
 
 .about-content {
     max-width: 800px;
-    margin: auto;
 }
 
 .about-img {
@@ -180,10 +186,26 @@ button:hover {
     margin-bottom: 20px;
 }
 
+.about h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.about p {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+
+
+
 /* Contact Section */
 .contact-section {
     text-align: center;
-    padding: 60px;
+    padding: 64px;
     border-top: 1px solid #eee;
 }
 
