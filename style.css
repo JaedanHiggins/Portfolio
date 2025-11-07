@@ -90,12 +90,17 @@ button:hover {
 .projects {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 60px; /* increase spacing between cards */
+  flex-wrap: wrap; /* ensures cards wrap nicely on smaller screens */
+  margin-top: 40px;
 }
+
 .project-card {
   text-align: center;
   max-width: 250px;
+  margin: 10px; /* adds breathing room around each card */
 }
+
 
 /* About Page */
 .about {
